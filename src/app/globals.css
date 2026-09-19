@@ -12,6 +12,20 @@
   --accent-light: #e8c799;
 }
 
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-surface-1: var(--bg-surface-1);
+  --color-bg-surface-2: var(--bg-surface-2);
+  --color-bg-surface-3: var(--bg-surface-3);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-accent-light: var(--accent-light);
+  --font-sans: 'Inter', 'Geist', system-ui, sans-serif;
+  --font-mono: 'Fira Code', 'SF Mono', Monaco, monospace;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -74,5 +88,4 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(212, 165, 116, 0.5);
 }
-
 
